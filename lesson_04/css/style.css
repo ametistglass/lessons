@@ -1,0 +1,138 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+html,
+body {
+   color: #505471;
+   font-family: "Rubik", sans-serif;
+}
+
+article {
+   max-width: 1440px;
+   min-height: 100vh;
+   margin: 0 auto;
+   padding: 50px 20px;
+   background-color: #f1f9ff;
+}
+
+.title {
+   margin-bottom: 20px;
+   font-family: "Praysire-Demo", sans-serif;
+   font-size: 48px;
+   font-weight: bold;
+   text-align: center;
+   text-transform: uppercase;
+   /* text-shadow: 2px 2px #000; */
+   /* text-decoration:overline underline; */
+}
+
+.sub__title {
+   font-family: "Lato", sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 2;
+}
+
+p {
+   margin-bottom: 30px;
+}
+
+p.one {
+   font-family: "Roboto", sans-serif;
+   text-align: justify;
+   letter-spacing: 1px;
+   word-spacing: 10px;
+   line-height: 1.5;
+}
+
+p.two {
+   font-size: 18px;
+   font-style: italic;
+   line-height: 1.5;
+}
+
+p.three {
+   font-family: "Lato", sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 1.5;
+}
+
+p.four {
+   font-size: 18px;
+   line-height: 1.5;
+   white-space: nowrap;
+}
+
+p.five {
+   font-family: "Roboto", sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+   letter-spacing: 2px;
+   word-spacing: 10px;
+   text-align: right;
+}
+
+.normal {
+   font-style: normal;
+}
+
+.italic {
+   font-style: italic;
+}
+
+.align-center {
+   text-align: center;
+}
+
+.letter-spacing {
+   letter-spacing: 1px;
+}
+
+.word-spacing {
+   word-spacing: 10px;
+}
+
+.nowrap {
+   white-space: nowrap;
+}
+
+.bold {
+   font-weight: bold;
+}
+
+.line-through {
+   text-decoration: line-through 2px rgb(102, 0, 0);
+}
+
+.uppercase {
+   text-transform: uppercase;
+}
+
+.underline {
+   text-decoration: underline 2px dashed rgb(90, 0, 0);
+}
+
+.shadow {
+   text-shadow: 0px 6px 5px #505471;
+}
+
+.sub__title.last {
+   margin-top: 40px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   letter-spacing: 5px;
+   text-decoration: overline underline 2px dotted green;
+   line-height: 1.5;
+   text-align: right;
+}
+
+.ps {
+   font-family: inherit;
+   font-size: 10px;
+   font-weight: 500;
+   text-decoration: line-through 1px solid rgba(0, 0, 0, 0.4);
+   letter-spacing: 1px;
+   word-spacing: 5px;
+   font-style: oblique;
+}

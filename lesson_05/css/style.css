@@ -34,12 +34,12 @@ body {
 .reasons__intem {
    display: inline-block;
    vertical-align: top;
+   margin-bottom: 50px;
 }
 
 @media (min-width: 424.98px) {
    .reasons__intem {
       width: 50%;
-      margin-bottom: 50px;
       padding: 0 24px;
    }
 }

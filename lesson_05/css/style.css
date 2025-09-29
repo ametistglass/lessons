@@ -59,6 +59,8 @@ body {
 }
 
 .reasons__img {
+   width: 55px;
+   height: 55px;
    margin-bottom: 26px;
 }
 
